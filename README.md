@@ -49,7 +49,7 @@ B - To gain an understanding of how to read software documentation and put what 
 <p>7. In order to setup new users, who can add tickets to the system, click Agents Panel --> Users --> Add User. On the following screen, add the user's name and email address. Click to save the changes. Complete the process again to add more users. Read the <a href="https://docs.osticket.com/en/latest/Agent/Users/User%20Directory.html">Users Documentation</a> to find out more about how Users work in osTicket.</p>
 <img src="https://github.com/GaryKirk/post-install-config/assets/137613637/c084a89b-91e0-4ad2-9c3a-e8e2c32e97e8" alt="Users" width="500" length="500"/><br /><br />
 
-<p>8. To configure Service Level Agreement Plans, which set out in detail how certain issues and users should be handled, click Admin Panel --> Manage --> SLA. Following this, use  the details below to setup three different SLAs. After each one is complete, click to save the changes.</p>
+<p>8. To configure Service Level Agreement Plans, which set out in detail how certain issues and users should be handled, click Admin Panel --> Manage --> SLA --> Add New SLA Plan. Following this, use the Name, Grace Period, and Schedule information below to setup three different SLAs. After each one is complete, click to save the changes.</p>
 <ul>- Sev-A (1 hour, 24/7)</ul>
 <ul>- Sev-B (4 hours, 24/7)</ul>
 <ul>- Sev-C (8 hours, business hours)</ul>
@@ -57,6 +57,14 @@ B - To gain an understanding of how to read software documentation and put what 
 <p>Read the <a href="https://docs.osticket.com/en/latest/Admin/Manage/SLA%20Plans.html">SLA Documentation</a> to find out more about how SLAs work in osTicket.</p>
 <img src="https://github.com/GaryKirk/post-install-config/assets/137613637/3c4348e1-bfd3-458d-ba5b-f2f31fa60c57" alt="SLAs" width="500" length="500"/><br /><br />
 
-<p>9. To configure Service Level Agreement Plans, which set out in detail how certain issues and users should be handled, click Admin Panel --> Manage --> SLA. Following this, use  the details below to setup three different SLAs. After each one is complete, click to save the changes.</p>
-<img src="https://github.com/GaryKirk/post-install-config/assets/137613637/3c4348e1-bfd3-458d-ba5b-f2f31fa60c57" alt="SLAs" width="500" length="500"/><br /><br />
+<p>9. Help Topics are used by users to provide information about their issue. To setup some common Help Topics, click Admin Panel --> Manage --> Help Topics --> Add New Help Topic. Use the details below to setup four different Help Topics. After each one is complete, click to save the changes.</p>
+<ul>- Business Critical Outage</ul>
+<ul>- Personal Computer Issues</ul>
+<ul>- Equipment Request</ul>
+<ul>- Password Reset</ul>
+
+<p>Read the <a href="https://docs.osticket.com/en/latest/Admin/Manage/Help%20Topic.html">Help Topics Documentation</a> to find out more about how Help Topics work in osTicket.</p>
+<img src="https://github.com/GaryKirk/post-install-config/assets/137613637/24e5fb2c-1516-40b2-bb2e-0b27c5ef8c8c" alt="Help Topics" width="500" length="500"/><br /><br />
+
+The core settings of osTicket are now configured correctly. The system is ready to receive, manage, and complete help desk tickets.
 
