@@ -37,9 +37,26 @@ B - To gain an understanding of how to read software documentation and put what 
 <p>3. To setup a new department, click Agents --> Departments --> Add New Department. Name the new department "System Administrators". Leave all other settings as default. Click to save the changes. Read the <a href="https://docs.osticket.com/en/latest/Admin/Agents/Departments.html">Departments Documentation</a> to find out more about how Departments work in osTicket.</p>
 <img src="https://github.com/GaryKirk/post-install-config/assets/137613637/6e129827-b365-4923-a4e3-fcf524a9f846" alt="Departments" width="500" length="500"/><br /><br />
 
-<p>4. Next, to setup a new Team, click Agents --> Teams --> Add New Team. Name the new team "Level II Support". On the members tab, use the drop down menu to add yourself to the team. Click to save the changes. Read the <a href="https://docs.osticket.com/en/latest/Admin/Agents/Teams.html">Team Documentation</a> to find out more about how Teams work in osTicket.</p>
+<p>4. Next, to setup a new Team, click Agents --> Teams --> Add New Team. Name the new team "Level II Support". On the members tab, use the drop down menu to add yourself to the team. Click to save the changes. Read the <a href="https://docs.osticket.com/en/latest/Admin/Agents/Teams.html">Teams Documentation</a> to find out more about how Teams work in osTicket.</p>
 <img src="https://github.com/GaryKirk/post-install-config/assets/137613637/01bb2179-d32b-4db1-92d0-0b63b37f15e7" alt="Teams" width="500" length="500"/><br /><br />
 
-<p>5. Next, to setup a new Team, click Agents --> Teams --> Add New Team. Name the new team "Level II Support". On the members tab, use the drop down menu to add yourself to the team. Click to save the changes. Read the <a href="https://docs.osticket.com/en/latest/Admin/Agents/Teams.html">Teams Documentation</a> to find out more about how Teams work in osTicket.</p>
-<img src="https://github.com/GaryKirk/post-install-config/assets/137613637/01bb2179-d32b-4db1-92d0-0b63b37f15e7" alt="Teams" width="500" length="500"/><br /><br />
+<p>5. In order to allow all users to add tickets to the system, a setting can be toggled on. To do this, go to Settings --> User Settings. Under 'Authentifiction Settings', make sure that 'Require registration and login to create tickets' is unchecked. This will allow anyone to add tickets. If you would prefer users to be registered before adding tickets, you can check the box.</p>
+<img src="https://github.com/GaryKirk/post-install-config/assets/137613637/4bc29089-08a7-4c43-8a03-af1e97427368" alt="Settings for Adding Tickets" width="500" length="500"/><br /><br />
+
+<p>6. To add agents, who will work on incoming tickets, click Agent --> Add New Agent. On the following screen, add the agent's name and email address. Also, setup a username and password for the agent. Under the corresponding tabs, setup the agents department access, permissions, and team. Click to create the agent. Complete the process again to add more agents. Read the <a href="https://docs.osticket.com/en/latest/Admin/Agents/Agents.html">Agents Documentation</a> to find out more about how Agents work in osTicket.</p>
+<img src="https://github.com/GaryKirk/post-install-config/assets/137613637/78035b91-c86b-4c63-82ff-4d6f8ee7f1e5" alt="Agents" width="500" length="500"/><br /><br />
+
+<p>7. In order to setup new users, who can add tickets to the system, click Agents Panel --> Users --> Add User. On the following screen, add the user's name and email address. Click to save the changes. Complete the process again to add more users. Read the <a href="https://docs.osticket.com/en/latest/Agent/Users/User%20Directory.html">Users Documentation</a> to find out more about how Users work in osTicket.</p>
+<img src="https://github.com/GaryKirk/post-install-config/assets/137613637/c084a89b-91e0-4ad2-9c3a-e8e2c32e97e8" alt="Users" width="500" length="500"/><br /><br />
+
+<p>8. To configure Service Level Agreement Plans, which set out in detail how certain issues and users should be handled, click Admin Panel --> Manage --> SLA. Following this, use  the details below to setup three different SLAs. After each one is complete, click to save the changes.</p>
+<ul>- Sev-A (1 hour, 24/7)</ul>
+<ul>- Sev-B (4 hours, 24/7)</ul>
+<ul>- Sev-C (8 hours, business hours)</ul>
+
+<p>Read the <a href="https://docs.osticket.com/en/latest/Admin/Manage/SLA%20Plans.html">SLA Documentation</a> to find out more about how SLAs work in osTicket.</p>
+<img src="https://github.com/GaryKirk/post-install-config/assets/137613637/3c4348e1-bfd3-458d-ba5b-f2f31fa60c57" alt="SLAs" width="500" length="500"/><br /><br />
+
+<p>9. To configure Service Level Agreement Plans, which set out in detail how certain issues and users should be handled, click Admin Panel --> Manage --> SLA. Following this, use  the details below to setup three different SLAs. After each one is complete, click to save the changes.</p>
+<img src="https://github.com/GaryKirk/post-install-config/assets/137613637/3c4348e1-bfd3-458d-ba5b-f2f31fa60c57" alt="SLAs" width="500" length="500"/><br /><br />
 
