@@ -7,9 +7,11 @@ The aim of this lab is to correctly configure osTicket, an open-source ticketing
 
 <h2>Environments and Technologies Used</h2>
 
-- Microsoft Azure (Virtual Machines/Compute)
-- Remote Desktop
-- Internet Information Services (IIS)
+<ul>
+  <li>Microsoft Azure (Virtual Machines/Compute))</li>
+  <li>Remote Desktop)</li>
+  <li>Internet Information Services (IIS)</li>
+</ul>
 
 <h2>Operating Systems Used </h2>
 
@@ -18,13 +20,16 @@ The aim of this lab is to correctly configure osTicket, an open-source ticketing
 <h2>Post-Install Configuration Objectives</h2>
 
 A - To gain experience configuring the following areas of osTicket:
-<ul>- Roles</ul>
-<ul>- Departments</ul>
-<ul>- Teams</ul>
-<ul>- Workers</ul>
-<ul>- Users</ul>
-<ul>- Service Level Agreements</ul>
-<ul>- Help Topics</ul>
+<ul>
+  <li>Roles</li>
+  <li>Departments</li>
+  <li>Teams</li>
+  <li>Workers</li>
+  <li>Users</li>
+  <li>Service Level Agreements</li>
+  <li>Help Topics</li>
+</ul>
+
 B - To gain an understanding of how to read software documentation and put what is learned in to practice.
 
 <h2>osTicket Configuration Setup</h2>
@@ -50,18 +55,22 @@ B - To gain an understanding of how to read software documentation and put what 
 <img src="https://github.com/GaryKirk/post-install-config/assets/137613637/c084a89b-91e0-4ad2-9c3a-e8e2c32e97e8" alt="Users" width="500" length="500"/><br /><br />
 
 <p>8. To configure Service Level Agreement Plans, which set out in detail how certain issues and users should be handled, click Admin Panel --> Manage --> SLA --> Add New SLA Plan. Following this, use the Name, Grace Period, and Schedule information below to setup three different SLAs. After each one is complete, click to save the changes.</p>
-<ul>- Sev-A (1 hour, 24/7)</ul>
-<ul>- Sev-B (4 hours, 24/7)</ul>
-<ul>- Sev-C (8 hours, business hours)</ul>
+<ul>
+  <li>Sev-A (1 hour, 24/7)</li>
+  <li>Sev-B (4 hours, 24/7)</li>
+  <li>Sev-C (8 hours, business hours)</li>
+</ul>
 
 <p>Read the <a href="https://docs.osticket.com/en/latest/Admin/Manage/SLA%20Plans.html">SLA Documentation</a> to find out more about how SLAs work in osTicket.</p>
 <img src="https://github.com/GaryKirk/post-install-config/assets/137613637/3c4348e1-bfd3-458d-ba5b-f2f31fa60c57" alt="SLAs" width="500" length="500"/><br /><br />
 
 <p>9. Help Topics are used by users to provide information about their issue. To setup some common Help Topics, click Admin Panel --> Manage --> Help Topics --> Add New Help Topic. Use the details below to setup four different Help Topics. After each one is complete, click to save the changes.</p>
-<ul>- Business Critical Outage</ul>
-<ul>- Personal Computer Issues</ul>
-<ul>- Equipment Request</ul>
-<ul>- Password Reset</ul>
+<ul>
+  <li>Business Critical Outage</li>
+  <li>Personal Computer Issues</li>
+  <li>Equipment Request</li>
+  <li>Password Reset</li>
+</ul>
 
 <p>Read the <a href="https://docs.osticket.com/en/latest/Admin/Manage/Help%20Topic.html">Help Topics Documentation</a> to find out more about how Help Topics work in osTicket.</p>
 <img src="https://github.com/GaryKirk/post-install-config/assets/137613637/24e5fb2c-1516-40b2-bb2e-0b27c5ef8c8c" alt="Help Topics" width="500" length="500"/><br /><br />
