@@ -75,5 +75,5 @@ B - To gain an understanding of how to read software documentation and put what 
 <p>Read the <a href="https://docs.osticket.com/en/latest/Admin/Manage/Help%20Topic.html">Help Topics Documentation</a> to find out more about how Help Topics work in osTicket.</p>
 <img src="https://github.com/GaryKirk/post-install-config/assets/137613637/24e5fb2c-1516-40b2-bb2e-0b27c5ef8c8c" alt="Help Topics" width="500" length="500"/><br /><br />
 
-The core settings of osTicket are now configured correctly. The system is ready to receive, manage, and complete help desk tickets.
+The core settings of osTicket are now configured correctly. The system is ready to receive and manage help desk tickets.
 
